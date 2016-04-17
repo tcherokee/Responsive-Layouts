@@ -37,12 +37,10 @@ h3 {
 
 .floatr {
   float: right;
-  width: 50%;
 }
 
 .floatl {
   float: left;
-  width: 50%;
 }
 
 /** Layout Styles ------------------------------*/
@@ -100,13 +98,14 @@ nav a:hover {
 }
 
 .navi li {
-  margin: 5px 0;
+  margin: 7px 0;
   background: #ededed;
   border: 1px solid #ccc;
 }
 
 footer .navi {
   display: none;
+  font-size: 0.9em;
 }
 
 /** Profile Section ---------------------------*/
@@ -223,10 +222,6 @@ footer {
     text-align: center;
   }
 
-  nav ul {
-    display: inline-block;
-  }
-
   .navi li {
     float: left;
     border: none;
@@ -241,13 +236,14 @@ footer {
 
   .navi a:hover {
     background: none;
-    color: #62717e;
+    color: #2572aa;
     border-bottom: 2px solid;
   }
 
   /** Profile Section ---------------------------*/
 
   .profile-copy {
+    padding-right: 20px;
     text-align: left;
   }
 
