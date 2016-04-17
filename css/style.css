@@ -98,7 +98,7 @@ nav a:hover {
 }
 
 .navi li {
-  margin: 7px 0;
+  margin: 5px 0;
   background: #ededed;
   border: 1px solid #ccc;
 }
@@ -106,6 +106,10 @@ nav a:hover {
 footer .navi {
   display: none;
   font-size: 0.9em;
+}
+
+footer .navi li {
+  margin: 7px 0;
 }
 
 /** Profile Section ---------------------------*/
@@ -220,6 +224,10 @@ footer {
 
   nav .container {
     text-align: center;
+  }
+
+  .navi {
+    display: inline-block;
   }
 
   .navi li {
